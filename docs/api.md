@@ -1,5 +1,10 @@
 ## This module is server sided
 
+### Remember to add
+```lua
+require(game.ServerScriptService.StandModules)
+```
+
 ### module.takeDamage
 ```
 module.takeDamage(char, targetChar, hp)
