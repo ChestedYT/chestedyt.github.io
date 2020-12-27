@@ -38,7 +38,7 @@ knockbacks enemy
 
 ### module.standJump(char)
 stand leap/stand jump
-will update this
+(will update this in the future)
 
 ### module.noGrav
 ```lua
