@@ -11,6 +11,11 @@ module.takeDamage(char, targetChar, hp)
 ```
 Deal damage to target
 
+### module.heal
+```
+module.heal(char, targetChar, hp)
+```
+Heal Target
 
 ### module.onHit
 ```
