@@ -1,6 +1,4 @@
-## This module is server sided
-
-### Remember to add
+### (!)Remember to add
 ```lua
 local module = require(game.ServerScriptService.StandModules)
 ```
