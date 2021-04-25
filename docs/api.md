@@ -73,3 +73,11 @@ end
 ```lua
 --Play random hit animation on selected character/npc
 ```
+
+### module.loadAnim(char, animation, properties, playstop)
+```lua
+--Example
+module.loadAnim(char, game.ReplicatedStorage.Animations["Star Platinum"].Barrage, {["Looped"] = true}, "Play")
+
+module.loadAnim(char, game.ReplicatedStorage.Animations["Star Platinum"].Barrage, {["Looped"] = true}, "Stop")
+```
