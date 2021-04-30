@@ -1,5 +1,6 @@
-### (!)Remember to add
+### AE Module
 ```lua
+--Remember to add this
 local module = require(game.ServerScriptService.StandModules)
 ```
 
@@ -74,10 +75,11 @@ end
 --Play random hit animation on selected character/npc
 ```
 
-### module.loadAnim(char, animation, properties, playstop)
+### module.AdjustSpeed(char, WalkSpeed, DebrisTime, DontParent)
 ```lua
---Example
-module.loadAnim(char, game.ReplicatedStorage.Animations["Star Platinum"].Barrage, {["Looped"] = true}, "Play")
-
-module.loadAnim(char, game.ReplicatedStorage.Animations["Star Platinum"].Barrage, {["Looped"] = true}, "Stop")
+standmod.AdjustSpeed(Target, 4, 2)
+--that would set their speed to 4 for 2 seconds
+--and lets say for example another script does 
+standmod.AdjustSpeed(Target, 8, 2)
+--their speed will stay at 4
 ```
